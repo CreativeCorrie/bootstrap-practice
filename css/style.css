@@ -1,0 +1,55 @@
+/********************************************
+* CSS Styles for Bootstrap Wireframe Exercise
+* https://bootcamp-coders.cnm.edu
+*
+* @author rlewis37@cnm.edu
+********************************************/
+
+/********************************************
+* Layout Styles
+*
+* These styles control the layout
+********************************************/
+header {
+	margin-top: 20px;
+}
+
+footer {
+	background-color: #000000;
+	color: #cccccc;
+	font-style: italic;
+	margin-top: 40px;
+	padding: 60px 0;
+}
+
+/********************************************
+* Utility Styles
+*
+* These are intended to be re-used
+* for styling purposes
+********************************************/
+.content-box {
+	background-color: #cccccc;
+	border-radius: 6px;
+	padding: 10px 15px 15px;
+	margin-bottom: 20px;
+}
+
+/***
+* Flexbox Sticky Footer
+* http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+***/
+
+/*corrects IE min-height bug*/
+html { display: flex;}
+body { width: 100%;}
+
+.sfooter {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.sfooter-content {
+	flex: 1 0 auto;
+}
