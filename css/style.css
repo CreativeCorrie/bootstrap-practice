@@ -2,6 +2,7 @@
 * CSS Styles for Bootstrap Wireframe Exercise
 * https://bootcamp-coders.cnm.edu
 *
+
 * @author rlewis37@cnm.edu
 ********************************************/
 
@@ -11,13 +12,14 @@
 * These styles control the layout
 ********************************************/
 header {
-	margin-top: 40px;
+	background-color: white;
+	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
 footer {
-	background-color: aliceblue;
-	color: #cccccc;
+	background-color: #000000;
+	color: aliceblue;
 	font-style: italic;
 	margin-top: 40px;
 	padding: 60px 0;
@@ -30,10 +32,25 @@ footer {
 * for styling purposes
 ********************************************/
 .content-box {
-	background-color: #cccccc;
-	border-radius: 12px;
+	background-color: aliceblue;
+	border-radius: 6px;
 	padding: 10px 15px 15px;
-	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.content-box-nest {
+	background-color: white;
+	border-radius: 6px;
+	padding: 10px 15px 15px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.content-box-nest-1 {
+	background-color: white;
+	border-radius: 6px;
+	padding: 20px 25px 25px;
+	margin-left: 20px;
 	margin-bottom: 20px;
 }
 
@@ -48,8 +65,6 @@ body { width: 100%;}
 
 .sfooter {
 	display: flex;
-	margin-top: 40px;
-	margin-bottom: 40px;
 	flex-direction: column;
 	min-height: 100vh;
 }
